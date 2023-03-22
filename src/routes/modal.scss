@@ -1,0 +1,76 @@
+.stl--modal {
+  z-index: 60;
+  color: #273142;
+  background-color: #fefefe;
+  font-family: Inter, ui-sans-serif, system-ui;
+
+  &--container {
+    z-index: 30;
+    background-color: rgba(black, 0.693);
+  }
+
+  &__header {
+
+    &__text {
+      color:#2196F3;
+      font-family: papyrus;
+      line-height: 1.8;
+      font-weight: 600;
+      font-size: 2.4rem;
+    }
+
+    &__close {
+
+      svg {
+        color: green;
+        &:hover {
+          color: #eac603;
+        }
+      }
+    }
+  }
+
+  &__body {
+    clear: both;
+
+    div {
+      line-height: 1.396;
+      margin-bottom: 0.9rem;
+    }
+
+    button {
+      float: right;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+button {
+  &.brand {
+    color: #FFF;
+    padding: .9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    transition: all 0.9s;
+    border: 0.1rem solid transparent;
+    color: white;
+    background-image: linear-gradient(to right, rgb(6, 182, 212), rgb(63, 131, 248));
+
+    &:hover {
+      background-image: linear-gradient(to left bottom, rgb(6, 182, 212), rgb(63, 131, 248));
+    }
+
+    &:focus {
+      box-shadow: var(--focus-box-shadow);
+    }
+  }
+  &.launch {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -5.25rem;
+  }
+}
