@@ -115,6 +115,7 @@ pnpm add @sensethenlove/global-style # Only necessary if prerequisite css above 
 
 ### 💖 Our helpful packages!
 * [@sensethenlove/jwt](https://www.npmjs.com/package/@sensethenlove/jwt)
+* [@sensethenlove/slug](https://www.npmjs.com/package/@sensethenlove/slug)
 * [@sensethenlove/toast](https://www.npmjs.com/package/@sensethenlove/toast)
 * [@sensethenlove/env-write](https://www.npmjs.com/package/@sensethenlove/env-write)
 * [@sensethenlove/global-style](https://www.npmjs.com/package/@sensethenlove/global-style)
